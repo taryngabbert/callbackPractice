@@ -123,6 +123,11 @@ uniq(names, function(uniqArr){
 
 
     //Code Here for each
+function each (array, callback) {
+  for (var i = 0; i < array.length; i++) {
+      callback(array[i],i);
+  }
+  }
 
 each(names, function(item, indice){
   console.log('The item in the ' + indice + ' position is ' + item)
@@ -139,6 +144,10 @@ each(names, function(item, indice){
 
 
  //code here for getUserById
+function getUserById (array,variable,funx) {
+    for (var i = 0; i < array.length; i++) {
+    }
+}
 
 var users = [
   {
